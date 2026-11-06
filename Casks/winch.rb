@@ -1,9 +1,9 @@
 cask "winch" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.1"
-  sha256 arm:   "8ffb455d53364abada1a4d0da627214968d6b938bc1b9cb815253fec557f3aea",
-         intel: "46e3352f7028f56b48dea3df25483579610d72f0326d5316f657ab2b5ca92e28"
+  version "0.3.0"
+  sha256 arm:   "3ec654d5e0e6b2726f0061d49dad345030382b8cec79b6c8e90f9cc0d14b1f31",
+         intel: "6d0370749f309bb4e541d563cb46a305b306a666d8e41ad3472ec54f3b23938b"
 
   url "https://github.com/davidklassen/winch/releases/download/v#{version}/winch-darwin-#{arch}.tar.gz"
   name "winch"
